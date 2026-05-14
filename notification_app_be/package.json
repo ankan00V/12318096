@@ -1,14 +1,16 @@
 {
-  "name": "notification_app_be",
+  "name": "notification-service",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Campus notification service with priority-based inbox logic.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@types/node": "^25.7.0",

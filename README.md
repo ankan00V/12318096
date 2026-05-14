@@ -5,7 +5,7 @@ This repository contains the implementation of the Backend Track for the Campus 
 ## 📁 Repository Structure
 
 - `logging_middleware/`: A reusable Node.js/TypeScript middleware for centralized logging.
-- `vehicle_maintence_scheduler/`: Microservice for optimizing vehicle maintenance tasks at depots using a greedy scheduling algorithm.
+- `vehicle_maintenance_scheduler/`: Microservice for optimizing vehicle maintenance tasks at depots using a greedy scheduling algorithm.
 - `notification_app_be/`: Microservice for handling student notifications and the Priority Inbox feature.
 - `notification_system_design.md`: Comprehensive system design documentation for the notification platform (Stages 1–5).
 - `screenshots/`: Mandatory screenshots of API request/response cycles.

@@ -1,10 +1,12 @@
 {
-  "name": "vehicle_maintence_scheduler",
+  "name": "vehicle-maintenance-scheduler",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Optimizes vehicle maintenance scheduling across depots.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
